@@ -34,7 +34,7 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
 
         <header>
@@ -73,10 +73,23 @@
             <p>Als uw aanvraag bekeken is, dan zult u een mail van ons ontvangen.</p>
         </main>
 
-        <footer>
+        <footer class="mt-auto p-3 d-flex justify-content-around">
+
+            <ul class = "p-0 m-0">Sociale media
+                <li class="mx-4"><a href="https://www.instagram.com/raf.engelen/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a></li>
+                <li class="mx-4"><a href="https://twitter.com/Team_DN12">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a></li>
+            </ul>
+            <ul class = "p-0 m-0">
+                <li><a href="index.html">Startpagina</a></li>
+                <li><a href="voorbeelden.html">Voorbeelden</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
 
         </footer>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
