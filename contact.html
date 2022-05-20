@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+    <meta name="keywords" content="website maken, website kopen, webpage maken, webpage kopen">
+    <meta name="description" content="Website laten maken door een student toegepaste informatica.">
+    <meta name="author" content="Raf Engelen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+            <!-- logo -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Startpagina</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="voorbeelden.html">Voorbeelden</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <h1 class="my-3 offset-lg-2 offset-md-1 col-md-9 col-lg-10">Contacteer me</h1>
+
+            <p class="offset-lg-2 offset-md-1 col-12 col-md-10 col-lg-8">Vul onderstaand formulier in, om contact met
+                op te nemen. Na u het contactformulier heeft ingevuld zal uw </p>
+
+            <form action="contact.php" method="post" class="row">
+                <p class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
+                    <label for="firstName" class="d-block">First name</label>
+                    <input type="text" name="firstName" id="firstName" required/>
+                </p>
+
+                <p class="col-lg-4 col-md-5">
+                    <label for="lastName" class="d-block">Last name</label>
+                    <input type="text" name="lastName" id = "lastName" required/>
+                </p>
+
+                <p class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
+                    <label for="company" class="d-block">Company</label>
+                    <input type="text" name="company" id="company" required/>
+                </p>
+
+                <p class="col-lg-4 col-md-5">
+                    <label for="email" class="d-block">Email</label>
+                    <input type="text" name="email" id="email" required/>
+                </p>
+
+                <p class = "col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <label for="summary" class="d-block">Summary</label>
+                    <textarea name="summary" id="summary" cols="40" rows="5" required></textarea>
+                </p>
+
+                <p class = "offset-lg-2 offset-md-1 col-3">
+                    <button class="btn btn-dark" type="submit">Indienen</button>
+                </p>
+            </form>
+        </div>
+    </main>
+    <footer class="mt-auto p-3 d-flex">
+
+        <ul class = "p-0 m-0">Sociale media
+            <li class="mx-4"><a href="https://www.instagram.com/raf.engelen/">
+                <i class="fa-brands fa-instagram"></i>
+            </a></li>
+            <li class="mx-4"><a href="https://twitter.com/Team_DN12">
+                <i class="fa-brands fa-twitter"></i>
+            </a></li>
+        </ul>
+        <ul class = "p-0 m-0">
+            <li><a href="index.html">Startpagina</a></li>
+            <li><a href="voorbeelden.html">Voorbeelden</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
