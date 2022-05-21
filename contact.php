@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="style.css">
 
     <?php
+    //Database connection
     $con = mysqli_connect('localhost', 'root', '2368', 'website_input');
 
+    //data uit html form
     $txtFirstName = "\"".$_POST['firstName']."\"";
 
     $txtLastname = "\"".$_POST['lastName']."\"";
@@ -26,10 +28,14 @@
 
     $txtSummary = "\"".$_POST['summary']."\"";
 
+    //sql query
     $sql = "INSERT INTO input (firstName, lastName, company, email, summary) 
     VALUES ($txtFirstName, $txtLastname, $txtCompany, $txtEmail, $txtSummary);";
 
+    //toevoegen aan sql
     $submit = mysqli_query($con, $sql);
+
+
     ?>
 
 </head>
@@ -40,8 +46,7 @@
         <header>
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <!-- logo -->
+                    <a class="navbar-brand" href="#"><!-- logo --></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

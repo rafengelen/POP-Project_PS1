@@ -20,8 +20,7 @@
         <!--Bootstrap Navbar -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-            <!-- logo -->
+                <a class="navbar-brand" href="#"><!-- logo --></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -58,27 +57,27 @@
             <form action="contact.php" method="post" class="row">
                 <p class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
                     <label for="firstName" class="d-block">First name</label>
-                    <input type="text" name="firstName" id="firstName" required/>
+                    <input type="text" name="firstName" id="firstName" required maxlength="20"/>
                 </p>
 
                 <p class="col-lg-4 col-md-5">
                     <label for="lastName" class="d-block">Last name</label>
-                    <input type="text" name="lastName" id = "lastName" required/>
+                    <input type="text" name="lastName" id = "lastName" required maxlength="30"/>
                 </p>
 
                 <p class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
                     <label for="company" class="d-block">Company</label>
-                    <input type="text" name="company" id="company" required/>
+                    <input type="text" name="company" id="company" required maxlength="30"/>
                 </p>
 
                 <p class="col-lg-4 col-md-5">
                     <label for="email" class="d-block">Email</label>
-                    <input type="text" name="email" id="email" required/>
+                    <input type="email" name="email" id="email" required maxlength="50"/>
                 </p>
 
                 <p class = "col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <label for="summary" class="d-block">Summary</label>
-                    <textarea name="summary" id="summary" cols="40" rows="5" required></textarea>
+                    <textarea name="summary" id="summary" cols="40" rows="5" required maxlength="255"></textarea>
                 </p>
 
                 <p class = "offset-lg-2 offset-md-1 col-3">
