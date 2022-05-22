@@ -49,16 +49,544 @@
 
 
 <main class = "container">
-    <div class = "example">
-        <p>hi</p>
+    <div class = "example my-3">
+        <header>
+            <!--Bootstrap Navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><!-- logo --></a>
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavEx1" aria-controls="navbarNavEx1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavEx1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Startpagina</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="voorbeelden.html">Voorbeelden</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <img src="img/banner.jpg" alt="Code" class = "img-fluid">
+
+        </header>
+
+        <main class="container">
+            <div class="row">
+                <h1 class = "my-3 offset-lg-2 offset-md-1">Student ondernemer: Raf Engelen</h1>.
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+
+                    <h2>Website op maat</h2>
+                    <p>Wilt u een statische website voor uw organisatie, bedrijf of u als persoon,
+                        maar niet de hoge prijzen betalen die professionals vragen?
+                        Laat uw website maken door een student Toegepaste Informatica.
+                        Perfect voor simpelere en kleinere websites. </p>
+                </section>
+
+                <section class="offset-lg-2 offset-md-1 col-lg-6 col-md-5">
+                    <h2>De programmeur</h2>
+                    <p>Ik ben Raf Engelen, een gemotiveerde student met een passie voor informatica
+                        en een liefde voor programmeren. Student Toegepaste Informatica op Thomas More in Geel.</p>
+                </section>
+
+                <img src="img/RafEngelenTM.jpg" alt="Raf Engelen" class="img-fluid col-md-3 col-lg-2 align-self-center">
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+                    <h2>Onze service</h2>
+                    <p>Heeft u uw eigen ideeën en wilt u zelf veel inspraak hebben bij het designen?
+                        Ik zal u op de hoogte houden met updates die u kan goed- of afkeuren.
+                        Door dit proces kan de wachttijd op het eindproduct verlengd worden.</p>
+                </section>
+
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+                    <h2>Het verloop</h2>
+                    <ol>
+                        <li>Vul contactformulier in</li>
+                        <li>Ik kijk je aanvraag na</li>
+                        <li>U ontvangt een mail om een gesprek te laten plaatsvinden</li>
+                        <li>Gesprek over uw wensen in detail en over de gewenste stijl</li>
+                        <li>Prijs wordt op maat gemaakt voor uw project</li>
+                        <li>Als we overeen komen over de prijs start ik aan de webpagina's</li>
+                        <li>Ik stuur tussentijdse updates door over het project</li>
+                        <li>U ontvangt een rekening</li>
+
+                    </ol>
+
+                    <!--
+                    Geprobeerd om carousel (bootstrapcomponent te maken met tekst in plaats van met images)
+
+                    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="w-100">Indienen contactformulier</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Email na nakijken aanvraag</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Gesprek</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Prijs berekenen</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Website opmaken</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Bestanden doorsturen + rekening betalen</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                    -->
+                </section>
+
+                <!--Bootstrap: collapse-->
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+                    <h2>Voordelen</h2>
+
+                    <p class="row">
+                        <button class="btn btn-dark m-2 col-5 col-md-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCheaperEx1" aria-expanded="false" aria-controls="collapseCheaperEx1">
+                            Goedkoper
+                        </button>
+                        <button class="btn btn-dark m-2 col-5 col-md-4 offset-md-1 offset-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseScreenEx1" aria-expanded="false" aria-controls="collapseScreenEx1">
+                            Schermgrootte
+                        </button>
+                        <button class="btn btn-dark m-2 col-5 col-md-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUpdatesEx1" aria-expanded="false" aria-controls="collapseUpdatesEx1">
+                            Tussentijdse updates
+                        </button>
+                        <button class="btn btn-dark m-2 col-5 col-md-4 offset-md-1 offset-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDesignEx1" aria-expanded="false" aria-controls="collapseDesignEx1">
+                            Inspraak bij design
+                        </button>
+                    </p>
+                    <div class="collapse mb-1" id="collapseCheaperEx1">
+                        <div class="card card-body">
+                            Ik lever professionele statische websites voor een lagere prijs dan andere webdevelopers. De prijs wordt eerst besproken met de klant.
+                        </div>
+                    </div>
+                    <div class="collapse mb-1" id="collapseScreenEx1">
+                        <div class="card card-body">
+                            Ontvang een website die keurig gestyled is voor schermen van verschillende groottes, inclusief mobiele schermen.
+                        </div>
+                    </div>
+                    <div class="collapse mb-1" id="collapseUpdatesEx1">
+                        <div class="card card-body">
+                            Om er zeker van te zijn dat de webpagina's voldoen aan uw eisen, zal u regelmatig updates ontvangen tijdens het bouwproces van de website. Op deze manier bent u er altijd zeker van dat u het gewenste eindresultaat ontvangt.
+                        </div>
+                    </div>
+                    <div class="collapse mb-1" id="collapseDesignEx1">
+                        <div class="card card-body">
+                            Bent u graag betrokken bij het designen? en ik luister naar al uw feedback over de tussentijdse updates.
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-9">
+                    <h2>Prijs</h2>
+                    <p>De prijs van de service hangt af van enkele variabelen: het aantal webpagina's,
+                        de grootte van de webpagina's en de complexiteit. Hierdoor zal na het bespreken van de voorwaarden,
+                        een prijs worden samengesteld die u eerst moet goedkeuren. Als we tot een akkoord zijn gekomen,
+                        dan zal er pas gewerkt worden aan uw website en krijgt u een schatting van wanneer het eindproduct
+                        is voltooid.
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="mt-auto p-3 d-flex justify-content-around">
+
+            <ul class = "p-0 m-0">Sociale media
+                <li class="mx-4"><a href="https://www.instagram.com/raf.engelen/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a></li>
+                <li class="mx-4"><a href="https://twitter.com/Team_DN12">
+                    <i class="fa-brands fa-twitter"></i>
+                </a></li>
+            </ul>
+            <ul class = "p-0 m-0">
+                <li><a href="#">Startpagina</a></li>
+                <li><a href="voorbeelden.html">Voorbeelden</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </footer>
     </div>
 
-    <div class = "example">
-        <p>hi</p>
+    <div class = "example my-3">
+        <header>
+            <!--Bootstrap Navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><!-- logo --></a>
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavEx2" aria-controls="navbarNavEx2" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavEx2">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Startpagina</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="voorbeelden.html">Voorbeelden</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <img src="img/banner.jpg" alt="Code" class = "img-fluid">
+
+        </header>
+
+        <main class="container">
+            <div class="row">
+                <h1 class = "my-3 offset-lg-2 offset-md-1">Student ondernemer: Raf Engelen</h1>.
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+
+                    <h2>Website op maat</h2>
+                    <p>Wilt u een statische website voor uw organisatie, bedrijf of u als persoon,
+                        maar niet de hoge prijzen betalen die professionals vragen?
+                        Laat uw website maken door een student Toegepaste Informatica.
+                        Perfect voor simpelere en kleinere websites. </p>
+                </section>
+
+                <section class="offset-lg-2 offset-md-1 col-lg-6 col-md-5">
+                    <h2>De programmeur</h2>
+                    <p>Ik ben Raf Engelen, een gemotiveerde student met een passie voor informatica
+                        en een liefde voor programmeren. Student Toegepaste Informatica op Thomas More in Geel.</p>
+                </section>
+
+                <img src="img/RafEngelenTM.jpg" alt="Raf Engelen" class="img-fluid col-md-3 col-lg-2 align-self-center">
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+                    <h2>Onze service</h2>
+                    <p>Heeft u uw eigen ideeën en wilt u zelf veel inspraak hebben bij het designen?
+                        Ik zal u op de hoogte houden met updates die u kan goed- of afkeuren.
+                        Door dit proces kan de wachttijd op het eindproduct verlengd worden.</p>
+                </section>
+
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+                    <h2>Het verloop</h2>
+                    <ol>
+                        <li>Vul contactformulier in</li>
+                        <li>Ik kijk je aanvraag na</li>
+                        <li>U ontvangt een mail om een gesprek te laten plaatsvinden</li>
+                        <li>Gesprek over uw wensen in detail en over de gewenste stijl</li>
+                        <li>Prijs wordt op maat gemaakt voor uw project</li>
+                        <li>Als we overeen komen over de prijs start ik aan de webpagina's</li>
+                        <li>Ik stuur tussentijdse updates door over het project</li>
+                        <li>U ontvangt een rekening</li>
+
+                    </ol>
+
+                    <!--
+                    Geprobeerd om carousel (bootstrapcomponent te maken met tekst in plaats van met images)
+
+                    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="w-100">Indienen contactformulier</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Email na nakijken aanvraag</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Gesprek</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Prijs berekenen</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Website opmaken</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Bestanden doorsturen + rekening betalen</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                    -->
+                </section>
+
+                <!--Bootstrap: collapse-->
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+                    <h2>Voordelen</h2>
+
+                    <p class="row">
+                        <button class="btn btn-dark m-2 col-5 col-md-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCheaperEx2" aria-expanded="false" aria-controls="collapseCheaperEx2">
+                            Goedkoper
+                        </button>
+                        <button class="btn btn-dark m-2 col-5 col-md-4 offset-md-1 offset-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseScreenEx2" aria-expanded="false" aria-controls="collapseScreenEx2">
+                            Schermgrootte
+                        </button>
+                        <button class="btn btn-dark m-2 col-5 col-md-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUpdatesEx2" aria-expanded="false" aria-controls="collapseUpdatesEx2">
+                            Tussentijdse updates
+                        </button>
+                        <button class="btn btn-dark m-2 col-5 col-md-4 offset-md-1 offset-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDesignEx2" aria-expanded="false" aria-controls="collapseDesignEx2">
+                            Inspraak bij design
+                        </button>
+                    </p>
+                    <div class="collapse mb-1" id="collapseCheaperEx2">
+                        <div class="card card-body">
+                            Ik lever professionele statische websites voor een lagere prijs dan andere webdevelopers. De prijs wordt eerst besproken met de klant.
+                        </div>
+                    </div>
+                    <div class="collapse mb-1" id="collapseScreenEx2">
+                        <div class="card card-body">
+                            Ontvang een website die keurig gestyled is voor schermen van verschillende groottes, inclusief mobiele schermen.
+                        </div>
+                    </div>
+                    <div class="collapse mb-1" id="collapseUpdatesEx2">
+                        <div class="card card-body">
+                            Om er zeker van te zijn dat de webpagina's voldoen aan uw eisen, zal u regelmatig updates ontvangen tijdens het bouwproces van de website. Op deze manier bent u er altijd zeker van dat u het gewenste eindresultaat ontvangt.
+                        </div>
+                    </div>
+                    <div class="collapse mb-1" id="collapseDesignEx2">
+                        <div class="card card-body">
+                            Bent u graag betrokken bij het designen? en ik luister naar al uw feedback over de tussentijdse updates.
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-9">
+                    <h2>Prijs</h2>
+                    <p>De prijs van de service hangt af van enkele variabelen: het aantal webpagina's,
+                        de grootte van de webpagina's en de complexiteit. Hierdoor zal na het bespreken van de voorwaarden,
+                        een prijs worden samengesteld die u eerst moet goedkeuren. Als we tot een akkoord zijn gekomen,
+                        dan zal er pas gewerkt worden aan uw website en krijgt u een schatting van wanneer het eindproduct
+                        is voltooid.
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="mt-auto p-3 d-flex justify-content-around">
+
+            <ul class = "p-0 m-0">Sociale media
+                <li class="mx-4"><a href="https://www.instagram.com/raf.engelen/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a></li>
+                <li class="mx-4"><a href="https://twitter.com/Team_DN12">
+                    <i class="fa-brands fa-twitter"></i>
+                </a></li>
+            </ul>
+            <ul class = "p-0 m-0">
+                <li><a href="#">Startpagina</a></li>
+                <li><a href="voorbeelden.html">Voorbeelden</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </footer>
     </div>
 
-    <div class = "example">
-        <p>hi</p>
+    <div class = "example my-3">
+        <header>
+            <!--Bootstrap Navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><!-- logo --></a>
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavEx3" aria-controls="navbarNavEx3" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavEx3">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Startpagina</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="voorbeelden.html">Voorbeelden</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <img src="img/banner.jpg" alt="Code" class = "img-fluid">
+
+        </header>
+
+        <main class="container">
+            <div class="row">
+                <h1 class = "my-3 offset-lg-2 offset-md-1">Student ondernemer: Raf Engelen</h1>.
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+
+                    <h2>Website op maat</h2>
+                    <p>Wilt u een statische website voor uw organisatie, bedrijf of u als persoon,
+                        maar niet de hoge prijzen betalen die professionals vragen?
+                        Laat uw website maken door een student Toegepaste Informatica.
+                        Perfect voor simpelere en kleinere websites. </p>
+                </section>
+
+                <section class="offset-lg-2 offset-md-1 col-lg-6 col-md-5">
+                    <h2>De programmeur</h2>
+                    <p>Ik ben Raf Engelen, een gemotiveerde student met een passie voor informatica
+                        en een liefde voor programmeren. Student Toegepaste Informatica op Thomas More in Geel.</p>
+                </section>
+
+                <img src="img/RafEngelenTM.jpg" alt="Raf Engelen" class="img-fluid col-md-3 col-lg-2 align-self-center">
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+                    <h2>Onze service</h2>
+                    <p>Heeft u uw eigen ideeën en wilt u zelf veel inspraak hebben bij het designen?
+                        Ik zal u op de hoogte houden met updates die u kan goed- of afkeuren.
+                        Door dit proces kan de wachttijd op het eindproduct verlengd worden.</p>
+                </section>
+
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+                    <h2>Het verloop</h2>
+                    <ol>
+                        <li>Vul contactformulier in</li>
+                        <li>Ik kijk je aanvraag na</li>
+                        <li>U ontvangt een mail om een gesprek te laten plaatsvinden</li>
+                        <li>Gesprek over uw wensen in detail en over de gewenste stijl</li>
+                        <li>Prijs wordt op maat gemaakt voor uw project</li>
+                        <li>Als we overeen komen over de prijs start ik aan de webpagina's</li>
+                        <li>Ik stuur tussentijdse updates door over het project</li>
+                        <li>U ontvangt een rekening</li>
+
+                    </ol>
+
+                    <!--
+                    Geprobeerd om carousel (bootstrapcomponent te maken met tekst in plaats van met images)
+
+                    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="w-100">Indienen contactformulier</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Email na nakijken aanvraag</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Gesprek</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Prijs berekenen</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Website opmaken</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="w-100">Bestanden doorsturen + rekening betalen</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                    -->
+                </section>
+
+                <!--Bootstrap: collapse-->
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
+                    <h2>Voordelen</h2>
+
+                    <p class="row">
+                        <button class="btn btn-dark m-2 col-5 col-md-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCheaperEx3" aria-expanded="false" aria-controls="collapseCheaperEx3">
+                            Goedkoper
+                        </button>
+                        <button class="btn btn-dark m-2 col-5 col-md-4 offset-md-1 offset-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseScreenEx3" aria-expanded="false" aria-controls="collapseScreenEx3">
+                            Schermgrootte
+                        </button>
+                        <button class="btn btn-dark m-2 col-5 col-md-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUpdatesEx3" aria-expanded="false" aria-controls="collapseUpdatesEx3">
+                            Tussentijdse updates
+                        </button>
+                        <button class="btn btn-dark m-2 col-5 col-md-4 offset-md-1 offset-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDesignEx3" aria-expanded="false" aria-controls="collapseDesignEx3">
+                            Inspraak bij design
+                        </button>
+                    </p>
+                    <div class="collapse mb-1" id="collapseCheaperEx3">
+                        <div class="card card-body">
+                            Ik lever professionele statische websites voor een lagere prijs dan andere webdevelopers. De prijs wordt eerst besproken met de klant.
+                        </div>
+                    </div>
+                    <div class="collapse mb-1" id="collapseScreenEx3">
+                        <div class="card card-body">
+                            Ontvang een website die keurig gestyled is voor schermen van verschillende groottes, inclusief mobiele schermen.
+                        </div>
+                    </div>
+                    <div class="collapse mb-1" id="collapseUpdatesEx3">
+                        <div class="card card-body">
+                            Om er zeker van te zijn dat de webpagina's voldoen aan uw eisen, zal u regelmatig updates ontvangen tijdens het bouwproces van de website. Op deze manier bent u er altijd zeker van dat u het gewenste eindresultaat ontvangt.
+                        </div>
+                    </div>
+                    <div class="collapse mb-1" id="collapseDesignEx3">
+                        <div class="card card-body">
+                            Bent u graag betrokken bij het designen? en ik luister naar al uw feedback over de tussentijdse updates.
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="offset-lg-2 offset-md-1 col-lg-8 col-md-9">
+                    <h2>Prijs</h2>
+                    <p>De prijs van de service hangt af van enkele variabelen: het aantal webpagina's,
+                        de grootte van de webpagina's en de complexiteit. Hierdoor zal na het bespreken van de voorwaarden,
+                        een prijs worden samengesteld die u eerst moet goedkeuren. Als we tot een akkoord zijn gekomen,
+                        dan zal er pas gewerkt worden aan uw website en krijgt u een schatting van wanneer het eindproduct
+                        is voltooid.
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="mt-auto p-3 d-flex justify-content-around">
+
+            <ul class = "p-0 m-0">Sociale media
+                <li class="mx-4"><a href="https://www.instagram.com/raf.engelen/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a></li>
+                <li class="mx-4"><a href="https://twitter.com/Team_DN12">
+                    <i class="fa-brands fa-twitter"></i>
+                </a></li>
+            </ul>
+            <ul class = "p-0 m-0">
+                <li><a href="#">Startpagina</a></li>
+                <li><a href="voorbeelden.html">Voorbeelden</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </footer>
     </div>
 </main>
 
