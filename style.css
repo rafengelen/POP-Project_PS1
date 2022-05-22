@@ -31,3 +31,8 @@ i {
 a:hover{
     color: #1D9BF0;
 }
+
+.example {
+    border: 1px solid #000;
+    border-radius: 4px;
+}

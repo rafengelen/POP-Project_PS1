@@ -34,9 +34,61 @@
 
     //toevoegen aan sql
     $submit = mysqli_query($con, $sql);
-
-
     ?>
+
+
+
+    <?php
+    /*
+     * Verzenden van mail is mij nog niet gelukt
+     *
+     *
+    // Import PHPMailer classes into the global namespace
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
+
+    require 'PHPMailer/Exception.php';
+    require 'PHPMailer/PHPMailer.php';
+    require 'PHPMailer/SMTP.php';
+
+    $mail = new PHPMailer;
+
+    $mail->isSMTP();                      // Set mailer to use SMTP
+    $mail->Host = 'smtp.gmail.com';       // Specify main and backup SMTP servers
+    $mail->SMTPAuth = true;               // Enable SMTP authentication
+    $mail->Username = 'php007.test@gmail.com';   // SMTP username
+    $mail->Password = '1ITF02r0901812';   // SMTP password
+    $mail->SMTPSecure = 'tls';            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 587;                    // TCP port to connect to
+
+    // Info zender
+    $mail->setFrom('php007.test@gmail.com', 'Test');
+    $mail->addReplyTo('php007.test@gmail.com', 'Test');
+
+    // Ontvanger
+    $mail->addAddress($_POST['email']);
+
+    // Mail formaat naar HTML
+    $mail->isHTML(true);
+
+    // Mail Onderwerp
+    $mail->Subject = 'Verificatie';
+
+    // Mail inhoud
+    $bodyContent = '<h1>Verificatie</h1>';
+    $bodyContent .= '<p>Uw aanvraag is aangekomen en zal binnenkort verwerkt worden. 
+U krijgt een volgende mail als uw aanvraag is goedgekeurd</p>';
+    $mail->Body    = $bodyContent;
+
+    // Verzend Mail
+    if(!$mail->send()) {
+    echo 'Mail kon niet worden verzonden. Mailer Error: '.$mail->ErrorInfo;
+    } else {
+    echo 'Mail is verzonden.';
+    }
+*/
+    ?>
+
 
 </head>
 
