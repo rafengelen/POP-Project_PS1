@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2dacbcb8-5ae3-4689-ab7a-1628c3189970" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/les4_sass_voorbeeld" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -83,7 +82,13 @@
       <workItem from="1653064699474" duration="2298000" />
       <workItem from="1653110763887" duration="3317000" />
       <workItem from="1653213779862" duration="17724000" />
-      <workItem from="1653250981686" duration="36000" />
+      <workItem from="1653250981686" duration="86000" />
+      <workItem from="1653415355784" duration="709000" />
+      <workItem from="1653475969985" duration="70000" />
+      <workItem from="1653646992539" duration="2511000" />
+      <workItem from="1654070590688" duration="1727000" />
+      <workItem from="1654080337970" duration="1783000" />
+      <workItem from="1654266929081" duration="66000" />
     </task>
     <servers />
   </component>
